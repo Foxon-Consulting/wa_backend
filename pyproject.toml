@@ -10,14 +10,14 @@ requires-python = ">=3.10.8"
 readme = "README.md"
 
 dependencies = [
-  "Flask == 2.1.0",
-  "flask-restx == 1.0.3",
+  "Flask",
+  "flask-restx",
   "gunicorn",
   "Werkzeug == 2.2.2",
   "tomli",
   "Flask-Cors >= 3.0.10",
-  "Flask-SQLAlchemy >= 2.5.1",
-  "SQLAlchemy >= 1.4.11"
+  "Flask-SQLAlchemy >= 3.0.2",
+  "SQLAlchemy >= 1.4"
 ]
 
 [project.optional-dependencies]
